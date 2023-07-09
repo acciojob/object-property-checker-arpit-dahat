@@ -4,6 +4,9 @@ function hasKey(key) {
   //   write your code here
 	 return key in sampleObject;
 	}
+	function getAge(key){
+		return sampleObject[key];
+	}
 }
 
 // Do not change the code below
